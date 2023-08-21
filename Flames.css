@@ -1,4 +1,9 @@
 /* Style for inputs */
+body{
+  background-image: url("./Images/bg1.jpg");
+  
+background-size: cover;
+}
 input {
     padding: 10px;
     border: 1px solid #ccc;
@@ -27,7 +32,7 @@ input {
   }
   
   button:hover {
-    background-color:#c33;
+    background-color:#FF6B6B;
   }
   
   label{
@@ -57,7 +62,7 @@ input {
     top: 0;
     width: 50px;
     height: 80px;
-    background: #c33;
+    background: rgb(229, 228, 228);
     -moz-border-radius: 50px 50px 0 0;
     border-radius: 50px 50px 0 0;
     -webkit-transform: rotate(-45deg);
@@ -72,6 +77,7 @@ input {
             transform-origin: 0 100%;
 }
 #heart:after {
+
     left: 0;
     -webkit-transform: rotate(45deg);
        -moz-transform: rotate(45deg);
@@ -113,4 +119,17 @@ input {
   {
     transform: scale( .75 );
   }
+}
+#bigcontainer{
+  position: absolute;
+  top:10%;
+  left:36%;
+  padding:2%;
+  background-image: linear-gradient(43deg, #d04184 0%, #e564cf 46%, #FF6B6B 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  opacity: 12;
 }
